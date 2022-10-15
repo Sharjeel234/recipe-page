@@ -1,0 +1,1275 @@
+:root
+{
+    --color-black: #000000;
+    --color-gray1: #333333;
+    --color-gray2: #4F4F4F;
+    --color-gray3: #BDBDBD;
+    --color-gray4: #828282;
+    --color-white: #ffffff;
+    --color-orange: #F2994A;
+    --color-attr: #f7542e;
+
+    --box: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    --font-mont: 'Montserrat', sans-serif;
+    --font-pF: 'Playfair Display', serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-black);
+}
+body
+{
+    height: 2989px;
+}
+b
+{
+    font-weight: 700;
+}
+.title
+{
+    position: absolute;
+    width: 587px;
+    height: 64px;
+    left: 236px;
+    top: 49px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+svg
+{
+    position: absolute;
+    width: 13px;
+    height: 8px;
+    left: 236px;
+    top: 131px;
+}
+.intro
+{
+    position: absolute;
+    width: 592px;
+    height: 51px;
+    left: 261px;
+    top: 125px;
+    font-family: var(--font-mont);
+    font-style: italic;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-gray2);
+}
+img
+{
+    position: absolute;
+    width: 969px;
+    height: 444px;
+    left: 234px;
+    top: 219px;
+}
+/* Sidebar Section */
+.sidebar
+{
+    position: absolute;
+    width: 216px;
+    height: 367px;
+    left: 984px;
+    top: 711px;
+    background: var(--color-white);
+    box-shadow: var(--box);
+    border-radius: 12px;
+}
+.menu
+{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1024px;
+    top: 768px;
+    color: var(--color-orange);
+}
+.clock1
+{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1024px;
+    top: 844px;
+    color: var(--color-gray2);
+}
+.clock2
+{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1024px;
+    top: 919px;
+    color: var(--color-gray2);
+}
+.clock3
+{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1024px;
+    top: 995px;
+    color: var(--color-gray2);
+}
+.sb-title1
+{
+    position: absolute;
+    width: 38px;
+    height: 12px;
+    left: 1069px;
+    top: 768px;
+    font-family: var(--font-mont);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: var(--color-gray3);
+}
+.sb-title2
+{
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 1069px;
+    top: 844px;
+    font-family: var(--font-mont);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: var(--color-gray3);
+}
+.sb-title3
+{
+    position: absolute;
+    width: 61px;
+    height: 12px;
+    left: 1069px;
+    top: 919px;
+    font-family: var(--font-mont);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: var(--color-gray3);
+}
+.sb-title4
+{
+    position: absolute;
+    width: 63px;
+    height: 12px;
+    left: 1069px;
+    top: 995px;
+    font-family: var(--font-mont);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: var(--color-gray3);
+}
+.sb-time1
+{
+    position: absolute;
+    width: 77px;
+    height: 17px;
+    left: 1069px;
+    top: 784px;
+    font-family: var(--font-mont);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-orange);
+}
+.sb-time2
+{
+    position: absolute;
+    width: 80px;
+    height: 17px;
+    left: 1069px;
+    top: 860px;
+    font-family: var(--font-mont);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.sb-time3
+{
+    position: absolute;
+    width: 43px;
+    height: 17px;
+    left: 1069px;
+    top: 935px;
+    font-family: var(--font-mont);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.sb-time4
+{
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1069px;
+    top: 1011px;
+    font-family: var(--font-mont);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+/* Ingredient Section  */
+.ind-title
+{
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    left: 236px;
+    top: 711px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+/* Ingredients Subtitle  */
+.ind-subtitle
+{
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 237px;
+    top: 775px;
+    font-family: var(--font-pF);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.ind-subtitle2
+{
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 237px;
+    top: 980px;
+    font-family: var(--font-pF);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* All Ingredients Input  */
+.input-crumb 
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 829px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-butter
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 882px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-sug
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 921px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-cheese
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 1040px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-sugr
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 1102px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-cream
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 1137px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-vanil
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 1172px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-lemon
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 1207px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-egg
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 1244px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+.input-top
+{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 237px;
+    top: 1279px;
+    border: 1px solid var(--color-gray4);
+    border-radius: 4px;
+}
+/* All Ingredients label  */
+.label-crumb
+{
+    position: absolute;
+    width: 554px;
+    height: 50px;
+    left: 275px;
+    top: 829px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-butter
+{
+    position: absolute;
+    width: 360px;
+    height: 25px;
+    left: 275px;
+    top: 882px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-sug
+{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 275px;
+    top: 921px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-cheese
+{
+    position: absolute;
+    width: 599px;
+    height: 50px;
+    left: 275px;
+    top: 1040px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-sugr
+{
+    position: absolute;
+    width: 246px;
+    height: 20px;
+    left: 275px;
+    top: 1102px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-cream
+{
+    position: absolute;
+    width: 429px;
+    height: 25px;
+    left: 275px;
+    top: 1137px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-vanil
+{
+    position: absolute;
+    width: 251px;
+    height: 20px;
+    left: 275px;
+    top: 1172px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-lemon
+{
+    position: absolute;
+    width: 488px;
+    height: 25px;
+    left: 275px;
+    top: 1207px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-egg
+{
+    position: absolute;
+    width: 277px;
+    height: 25px;
+    left: 275px;
+    top: 1244px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-top
+{
+    position: absolute;
+    width: 543px;
+    height: 75px;
+    left: 275px;
+    top: 1279px;
+    font-family: var(--font-mont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-top i
+{
+    font-weight: 500;
+    font-style: italic;
+}
+/* Instruction Section */
+.inst-title
+{
+    position: absolute;
+    width: 137px;
+    height: 32px;
+    left: 236px;
+    top: 1382px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+/* All Instruction Rectangle */
+.rect1
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 236px;
+    top: 1442px;
+    background: var(--color-orange);
+    border-radius: 6px;
+}
+.rect2
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 236px;
+    top: 1513px;
+    background: var(--color-orange);
+    border-radius: 6px;
+}
+.rect3
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 236px;
+    top: 1799px;
+    background: var(--color-orange);
+    border-radius: 6px;
+}
+.rect4
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 236px;
+    top: 2077px;
+    background: var(--color-orange);
+    border-radius: 6px;
+}
+.rect5
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 236px;
+    top: 2357px;
+    background: var(--color-orange);
+    border-radius: 6px;
+}
+.rect6
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 236px;
+    top: 2589px;
+    background: var(--color-orange);
+    border-radius: 6px;
+}
+.rect7
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 236px;
+    top: 2723px;
+    background: var(--color-orange);
+    border-radius: 6px;
+}
+/* All Instruction Number */
+.num1 
+{
+    position: absolute;
+    width: 10px;
+    height: 32px;
+    left: 249px;
+    top: 1440px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+.num2 
+{
+    position: absolute;
+    width: 13px;
+    height: 32px;
+    left: 249px;
+    top: 1511px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+.num3 
+{
+    position: absolute;
+    width: 12px;
+    height: 32px;
+    left: 249px;
+    top: 1797px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+.num4 
+{
+    position: absolute;
+    width: 13px;
+    height: 32px;
+    left: 248px;
+    top: 2074px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+.num5 
+{
+    position: absolute;
+    width: 12px;
+    height: 32px;
+    left: 249px;
+    top: 2355px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+.num6 
+{
+    position: absolute;
+    width: 14px;
+    height: 32px;
+    left: 247px;
+    top: 2589px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+.num7 
+{
+    position: absolute;
+    width: 11px;
+    height: 32px;
+    left: 249px;
+    top: 2721px;
+    font-family: var(--font-pF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+/* All Instruction Text */
+.text1
+{
+    position: absolute;
+    width: 528px;
+    height: 40px;
+    left: 287px;
+    top: 1442px;
+    font-family: var(--font-mont);
+    font-size: 16px;
+    line-height: 20px;
+}
+.text2
+{
+    position: absolute;
+    width: 528px;
+    height: 264px;
+    left: 287px;
+    top: 1513px;
+    font-family: var(--font-mont);
+    font-size: 16px;
+    line-height: 20px;
+}
+.text3
+{
+    position: absolute;
+    width: 528px;
+    height: 240px;
+    left: 287px;
+    top: 1799px;
+    font-family: var(--font-mont);
+    font-size: 16px;
+    line-height: 20px;
+}
+.text4
+{
+    position: absolute;
+    width: 528px;
+    height: 240px;
+    left: 287px;
+    top: 2077px;
+    font-family: var(--font-mont);
+    font-size: 16px;
+    line-height: 20px;
+}
+.text5
+{
+    position: absolute;
+    width: 528px;
+    height: 192px;
+    left: 287px;
+    top: 2357px;
+    font-family: var(--font-mont);
+    font-size: 16px;
+    line-height: 20px;
+}
+.text6
+{
+    position: absolute;
+    width: 528px;
+    height: 96px;
+    left: 287px;
+    top: 2589px;
+    font-family: var(--font-mont);
+    font-size: 16px;
+    line-height: 20px;
+}
+.text7
+{
+    position: absolute;
+    width: 528px;
+    height: 48px;
+    left: 287px;
+    top: 2723px;
+    font-family: var(--font-mont);
+    font-size: 16px;
+    line-height: 20px;
+}
+.link
+{
+    position: absolute;
+    width: 600px;
+    height: 24px;
+    left: 236px;
+    top: 2828px;
+}
+.link p
+{
+    font-family: var(--font-mont);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-gray3);
+}
+.link p a
+{
+    font-family: var(--font-mont);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-gray3);
+    text-decoration: none;
+}
+.attribution
+{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    top: 2945px;
+    left: 577px;
+    font-family: var(--font-mont);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--color-gray4);
+}
+.attribution a
+{
+    text-decoration: none;
+    font-family: var(--font-pF);
+    font-weight: 600;
+    color: var(--color-attr);
+}
+
+@media screen and (max-width:500px)
+{
+    body 
+    {
+        height: 3740px;
+    }
+    .title
+    {
+        width: 323px;
+        height: 29px;
+        left: 11px;
+        top: 32px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    svg
+    {
+        left: 11px;
+        top: 76px;
+    }
+    .intro
+    {
+        width: 320px;
+        height: 88px;
+        left: 36px;
+        top: 73px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    img 
+    {
+        width: 352px;
+        height: 202px;
+        left: 11px;
+        top: 173px;
+    }
+    .sidebar
+    {
+        display: none;
+    }
+    .menu
+    {
+        width: 17px;
+        height: 17px;
+        left: 11px;
+        top: 402px;
+    }
+    .clock1
+    {
+        width: 17px;
+        height: 17px;
+        left: 11px;
+        top: 448.25px;
+    }
+    .clock2
+    {
+        width: 17px;
+        height: 17px;
+        left: 134px;
+        top: 448.25px;
+    }
+    .clock3
+    {
+        width: 17px;
+        height: 17px;
+        left: 257px;
+        top: 448.25px;
+    }
+    .sb-title1
+    {
+        width: 54px;
+        height: 11px;
+        left: 38px;
+        top: 402px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .sb-title2
+    {
+        width: 90px;
+        height: 10px;
+        left: 38px;
+        top: 448.25px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .sb-title3
+    {
+        width: 90px;
+        height: 10px;
+        left: 161px;
+        top: 448.25px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .sb-title4
+    {
+        width: 90px;
+        height: 10px;
+        left: 284px;
+        top: 448.25px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .sb-time1
+    {
+        width: 110px;
+        height: 17px;
+        left: 38px;
+        top: 412px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .sb-time2
+    {
+        width: 62.08px;
+        height: 16px;
+        left: 38px;
+        top: 459.75px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .sb-time3
+    {
+        width: 54.71px;
+        height: 16px;
+        left: 161px;
+        top: 459.75px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .sb-time4
+    {
+        width: 54.71px;
+        height: 16px;
+        left: 284px;
+        top: 459.75px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    /* Ingredient Section */
+    .ind-title
+    {
+        width: 96px;
+        height: 24px;
+        left: 12px;
+        top: 502px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .ind-subtitle
+    {
+        width: 157px;
+        height: 21px;
+        left: 13px;
+        top: 539px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .ind-subtitle2
+    {
+        width: 287px;
+        height: 48px;
+        left: 14px;
+        top: 735px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .input-crumb
+    {
+        left: 13px;
+        top: 583px;
+    }
+    .input-butter
+    {
+        left: 13px;
+        top: 636px;
+    }
+    .input-sug
+    {
+        left: 13px;
+        top: 675px;
+    }
+    .input-cheese
+    {
+        left: 13px;
+        top: 782px;
+    }
+    .input-sugr
+    {
+        left: 13px;
+        top: 844px;
+    }
+    .input-cream
+    {
+        left: 13px;
+        top: 879px;
+    }
+    .input-vanil
+    {
+        left: 13px;
+        top: 934px;
+    }
+    .input-lemon
+    {
+        left: 13px;
+        top: 969px;
+    }
+    .input-egg
+    {
+        left: 13px;
+        top: 1025px;
+    }
+    .input-top
+    {
+        left: 13px;
+        top: 1060px;
+    }
+    .label-crumb
+    {
+        width: 321px;
+        height: 50px;
+        left: 42px;
+        top: 583px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-butter
+    {
+        width: 315px;
+        height: 25px;
+        left: 42px;
+        top: 636px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-sug
+    {
+        width: 219px;
+        height: 17px;
+        left: 42px;
+        top: 675px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-cheese
+    {
+        width: 323px;
+        height: 50px;
+        left: 42px;
+        top: 782px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-sugr
+    {
+        width: 215px;
+        height: 17px;
+        left: 42px;
+        top: 844px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-cream
+    {
+        width: 320.52px;
+        height: 50px;
+        left: 42px;
+        top: 879px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-vanil
+    {
+        width: 220px;
+        height: 17px;
+        left: 42px;
+        top: 934px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-lemon
+    {
+        width: 323px;
+        height: 50px;
+        left: 42px;
+        top: 969px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-egg
+    {
+        width: 242px;
+        height: 25px;
+        left: 42px;
+        top: 1025px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .label-top
+    {
+        width: 313px;
+        height: 125px;
+        left: 42px;
+        top: 1060px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    /* Instruction Section */
+    .inst-title
+    {
+        width: 137px;
+        height: 32px;
+        left: 12px;
+        top: 1215px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .rect1
+    {
+        left: 12px;
+        top: 1275px;
+    }
+    .rect2
+    {
+        left: 12px;
+        top: 1346px;
+    }
+    .rect3
+    {
+        left: 12px;
+        top: 1837px;
+    }
+    .rect4
+    {
+        left: 12px;
+        top: 2342px;
+    }
+    .rect5
+    {
+        left: 12px;
+        top: 2801px;
+    }
+    .rect6
+    {
+        left: 12px;
+        top: 3174px;
+    }
+    .rect7
+    {
+        left: 12px;
+        top: 3412px;
+    }
+    .num1
+    {
+        width: 10px;
+        height: 32px;
+        left: 25px;
+        top: 1273px;
+    }
+    .num2
+    {
+        width: 13px;
+        height: 32px;
+        left: 25px;
+        top: 1344px;
+    }
+    .num3
+    {
+        width: 12px;
+        height: 32px;
+        left: 25px;
+        top: 1835px;
+    }
+    .num4
+    {
+        width: 13px;
+        height: 32px;
+        left: 25px;
+        top: 2340px;
+    }
+    .num5
+    {
+        width: 12px;
+        height: 32px;
+        left: 25px;
+        top: 2799px;
+    }
+    .num6
+    {
+        width: 14px;
+        height: 32px;
+        left: 25px;
+        top: 3172px;
+    }
+    .num7
+    {
+        width: 11px;
+        height: 32px;
+        left: 25px;
+        top: 3410px;
+    }
+    .text1
+    {
+        width: 300px;
+        height: 60px;
+        left: 63px;
+        top: 1275px;
+    }
+    .text2
+    {
+        width: 300px;
+        height: 456px;
+        left: 63px;
+        top: 1346px;
+    }
+    .text3
+    {
+        width: 274px;
+        height: 480px;
+        left: 63px;
+        top: 1837px;
+    }
+    .text4
+    {
+        width: 294px;
+        height: 432px;
+        left: 63px;
+        top: 2342px;
+    }
+    .text5
+    {
+        width: 284px;
+        height: 400px;
+        left: 63px;
+        top: 2801px;
+    }
+    .text6
+    {
+        width: 284px;
+        height: 192px;
+        left: 63px;
+        top: 3174px;
+    }
+    .text7
+    {
+        width: 281px;
+        height: 96px;
+        left: 63px;
+        top: 3412px;
+    }
+    .link
+    {
+        width: 352px;
+        height: 36px;
+        left: 12px;
+        top: 3534px;
+    }
+    .link p 
+    {
+        font-size: 12px;
+    }
+    .link p a 
+    {
+        font-size: 12px;
+    }
+    .link p a::before
+    {
+        content: "\a";
+        white-space: pre;
+    }
+    .attribution
+    {
+        width: 287px;
+        height: 17px;
+        left: 44px;
+        top: 3699px;
+
+    }
+}
